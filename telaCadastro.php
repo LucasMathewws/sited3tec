@@ -25,6 +25,7 @@
         <label for="senha">Senha</label>
         <input required placeholder="Senha" name="senha-cadastro" type="password">
         <input type="submit" value="Cadastrar">
+        <p>Já tem cadastro? <a href="index.php"><strong>faça seu login</strong></a></p>
       </form>
     </div>
 </body>
