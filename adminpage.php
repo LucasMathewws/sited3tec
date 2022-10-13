@@ -42,13 +42,15 @@
          
           while($linha = mysqli_fetch_assoc($resultado)){
         ?>
-        <tr>
-          <td><?php echo $linha['id'] ?></td>
-          <td><?php echo $linha['usuario'] ?></td>
-          <td><?php echo $linha['email'] ?></td>
-          <td><?php echo $linha['admin'] ?></td>
-          <td><button>editar</button><button>excluir</button></td>
-        </tr>
+        <form action="" class="">
+          <tr>
+            <td><?php echo $linha['id'] ?></td>
+            <td><?php echo $linha['usuario'] ?></td>
+            <td><?php echo $linha['email'] ?></td>
+            <td><?php echo $linha['admin'] ?></td>
+            <td><button>deletar</button><button>salvar</button></td>
+          </tr>
+        </form>
         <?php }?>
       </tbody>
     </table>
